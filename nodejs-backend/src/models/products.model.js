@@ -10,9 +10,10 @@
        sku: { type: String, required: true, unique: true },
        name: { type: String, required: true },
        brand: { type: String },
-       price: { type: Number },
-       rating: { type: Number },
-       inStock: { type: Boolean },
+       price: { type: Number ,default: 0 },
+       rating: { type: Number , default: 0 },
+       inStock: { type: Number, default: 0  },
+       inReserved: { type: Number, default: 0  },
 
     }
           // ~cb-read-end~

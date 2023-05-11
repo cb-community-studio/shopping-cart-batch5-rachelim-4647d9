@@ -9,6 +9,7 @@
           {
        name: { type: String, required: true, unique: false },
        email: { type: String, required: true, unique: true, lowercase: true },
+      //  phone: { type: Number, required: true, unique: true },
        password: { type: String, required: true },
        isAdmin: { type: Boolean, default: false },
 
