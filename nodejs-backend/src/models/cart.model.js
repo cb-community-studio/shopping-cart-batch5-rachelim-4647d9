@@ -7,9 +7,9 @@
         const schema = new Schema(
           // ~cb-read-start~
           {
-       product: { type: String, required: true },
+       product_sku: { type: String, required: true },
        quantity: { type: Number, default: 1 },
-       useremail: { type: String, required: true, unique: false },
+       user_detail: { type: String, required: true, unique: false },
 
     }
           // ~cb-read-end~
