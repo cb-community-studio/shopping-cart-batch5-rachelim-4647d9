@@ -8,7 +8,7 @@ import { Button } from 'primereact/button';
 
 const CartDataTable = ({ items, onEditRow, onRowDelete, onRowClick }) => {
     
-    const pTemplate0 = (rowData, { rowIndex }) => <p >{rowData.product}</p>
+    const pTemplate0 = (rowData, { rowIndex }) => <p >{rowData.product_sku}</p>
     const pTemplate1 = (rowData, { rowIndex }) => <p >{rowData.quantity}</p>
 
     const editTemplate = (rowData, { rowIndex }) => <Button onClick={() => onEditRow(rowData, rowIndex)} icon={`pi ${rowData.isEdit ? "pi-check" : "pi-pencil"}`} className={`p-button-rounded p-button-text ${rowData.isEdit ? "p-button-success" : "p-button-warning"}`} />;
