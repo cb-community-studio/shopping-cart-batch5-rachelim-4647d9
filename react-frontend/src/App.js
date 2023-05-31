@@ -28,6 +28,10 @@ class App extends Component {
                 <MyRouter />
                 {/* </PersistGate> */}
             </Provider>
+<<<<<<< Updated upstream
+=======
+            // <MyMain/>
+>>>>>>> Stashed changes
         );
     }
 }
